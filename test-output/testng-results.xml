@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="44927" started-at="2017-03-26T06:28:02Z" finished-at="2017-03-26T06:28:47Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="44900" started-at="2017-03-26T06:28:02Z" finished-at="2017-03-26T06:28:47Z">
+      <class name="com.script.SampleTest">
+        <test-method status="PASS" signature="startserver(java.lang.String, java.lang.String)[pri:0, instance:com.script.SampleTest@77caeb3e]" name="startserver" is-config="true" duration-ms="13203" started-at="2017-03-26T11:58:02Z" finished-at="2017-03-26T11:58:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10.10.13.150:5555]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4735]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startserver -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.script.SampleTest@77caeb3e]" name="setup" is-config="true" duration-ms="18372" started-at="2017-03-26T11:58:15Z" finished-at="2017-03-26T11:58:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4735]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10.10.13.150:5555]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6.0.1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10.10.13.150:5555]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[cameraShot_com.example.simplecamera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Googlepage()[pri:1, instance:com.script.SampleTest@77caeb3e]" name="Googlepage" duration-ms="12258" started-at="2017-03-26T11:58:34Z" description="the passed testcases" finished-at="2017-03-26T11:58:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Googlepage -->
+        <test-method status="PASS" signature="stopserver()[pri:0, instance:com.script.SampleTest@77caeb3e]" name="stopserver" is-config="true" duration-ms="1027" started-at="2017-03-26T11:58:46Z" finished-at="2017-03-26T11:58:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopserver -->
+      </class> <!-- com.script.SampleTest -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="44927" started-at="2017-03-26T06:28:02Z" finished-at="2017-03-26T06:28:47Z">
+      <class name="com.script.SampleTest">
+        <test-method status="PASS" signature="startserver(java.lang.String, java.lang.String)[pri:0, instance:com.script.SampleTest@4667ae56]" name="startserver" is-config="true" duration-ms="13203" started-at="2017-03-26T11:58:02Z" finished-at="2017-03-26T11:58:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10.10.13.219:5555]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4736]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startserver -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.script.SampleTest@4667ae56]" name="setup" is-config="true" duration-ms="17282" started-at="2017-03-26T11:58:15Z" finished-at="2017-03-26T11:58:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4736]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10.10.13.219:5555]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5.1.1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10.10.13.219:5555]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[cameraShot_com.example.simplecamera1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Googlepage()[pri:1, instance:com.script.SampleTest@4667ae56]" name="Googlepage" duration-ms="12540" started-at="2017-03-26T11:58:33Z" description="the passed testcases" finished-at="2017-03-26T11:58:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Googlepage -->
+        <test-method status="PASS" signature="stopserver()[pri:0, instance:com.script.SampleTest@4667ae56]" name="stopserver" is-config="true" duration-ms="1755" started-at="2017-03-26T11:58:45Z" finished-at="2017-03-26T11:58:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopserver -->
+      </class> <!-- com.script.SampleTest -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.lib.MyNXGTestListner"/>
+  </listeners>
+  <test name="Test2(failed)" parallel="tests">
+    <parameter name="apkPath" value="cameraShot_com.example.simplecamera1"/>
+    <parameter name="port" value="4736"/>
+    <parameter name="platformVersion" value="5.1.1"/>
+    <parameter name="udid" value="192.168.2.6:5555"/>
+    <parameter name="deviceName" value="192.168.2.6:5555"/>
+    <classes>
+      <class name="com.script.SampleTest">
+        <methods>
+          <include name="stopserver"/>
+          <include name="stopserver"/>
+          <include name="startserver"/>
+          <include name="setup"/>
+          <include name="startserver"/>
+          <include name="setup"/>
+          <include name="Googlepage"/>
+        </methods>
+      </class> <!-- com.script.SampleTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

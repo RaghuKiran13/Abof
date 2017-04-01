@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default suite"  parallel="tests" thread-count="2">
+    <listeners>
+        <listener class-name="com.lib.MyNXGTestListner"></listener>
+    </listeners>
+     
+  <test name="Test1">
+  <parameter name="deviceName" value="10.10.13.110:5555"/>
+		<parameter name="udid" value="10.10.13.110:5555"/>
+		<parameter name="apkPath" value="cameraShot_com.example.simplecamera"/> 
+		<parameter name="platformVersion" value="6.0.1"/>
+		<parameter name="port" value="4735"/>
+    <classes>
+        
+      <class name="com.script.SampleTest"/>
+    </classes>
+  </test> <!-- Default test -->
+  
+  <test name="Test2">
+   		<parameter name="deviceName" value="10.10.13.252:5555"/>
+		<parameter name="udid" value="10.10.13.252:5555"/> 
+		<parameter name="platformVersion" value="5.1.1"/>
+		<parameter name="apkPath" value="cameraShot_com.example.simplecamera1"/> 
+		<parameter name="port" value="4736"/>
+    <classes>
+      <class name="com.script.SampleTest"/>
+    </classes>
+  </test>
+</suite> <!-- Default suite -->
